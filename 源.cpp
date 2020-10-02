@@ -73,6 +73,7 @@ void seek() {
 	int num;
 	cout << "请输入学号：" << endl;
 	cin >> num;
+	for (int i = 0; i < 6; i++)
 	{
 		if (stu[i].num == num) {
 			cout << "平时成绩为:" << stu[i].as << "实验成绩为:" << stu[i].bs << "期末成绩为:" << stu[i].cs << endl;
